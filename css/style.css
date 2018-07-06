@@ -1,0 +1,76 @@
+body{
+	background-color: #f9fafa;
+	color:#eff1f2;
+	font-family:HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+}
+header{
+	/*
+	background-color:#459fed;*/
+	background-color:#9ACD32;
+	color:#FBFCFC;
+	padding-bottom: 1%;
+}
+
+.menu{display:block;}
+ 
+.menu li{display: inline-block;
+position: relative;
+z-index:100;}
+ 
+.menu li a {font-weight:600;
+text-decoration:none;
+padding:11px;
+display:block;
+color:#34495E  ;
+ 
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menu li a:hover, .menu li:hover > a{color:#ffffff;
+background:#273746;}
+
+
+article{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color:#5D6D7E;
+	opacity: 0.9;
+}
+button{
+	border:0;
+	padding: 8px;
+	width: 60%;
+	background-color:#52BE80;
+	color:#fff;
+}
+button:hover{
+	border:0;
+	padding: 8px;
+	width: 60%;
+	background-color:#117A65;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	color:#fff;
+}
+aside img{
+
+	width:101.8%;
+
+}
+.apartado1{
+	background-color:#9ACD32;
+	color:#FBFCFC; 
+}
+.apartado2{
+	height:100%;
+}
+footer{
+	padding:4%;
+	text-align:center;
+	background-image:url("../img/pie.jpg");
+	height:125px;
+}
