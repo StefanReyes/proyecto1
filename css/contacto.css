@@ -35,10 +35,15 @@ background:#273746;}
 
 
 article{
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-top:3%;
 	color:#5D6D7E;
 	opacity: 0.9;
+}
+aside{
+	padding-top:3%;
+	color:#F0FFFF;
+	background-color:#2F4F4F;
+	border-radius: 2%;
 }
 button{
 	border:0;
@@ -56,9 +61,9 @@ button:hover{
 	-moz-transition: all 0.2s ease-in-out 0s;
 	color:#fff;
 }
-aside img{
+ img{
 
-	width:101.8%;
+	width:60.8%;
 
 }
 .apartado1{
@@ -73,4 +78,23 @@ footer{
 	text-align:center;
 	background-image:url("../img/pie.jpg");
 	height:125px;
+}
+textarea{
+	width: 80%;
+	height:90px;
+	max-height: 120px;
+	min-height: 70px;
+}
+.box{
+
+}
+.dashed{
+	border:3px dashed black;
+	padding: 5px;
+	border-radius: 5%;
+}
+.dashed h3{
+	text-align: center;
+	background-color:#9ACD32;
+	color:#FBFCFC;
 }

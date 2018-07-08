@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+	<header>
+			<div class="container">
+				<h1>Bienestar Life4ever</h1>
+			</div>
+		</header>
+		<div class="container">
+		<div class="row navegacion">
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<nav>
+								<ul class="menu">
+									<li><a href="index.html">Inicio</a></li>
+									<li><a href="">Acerca de</a></li>
+									<li><a href="">Blog</a></li>
+									<li><a href="contacto.html">Contacto</a></li>
+								</ul>
+					</nav>
+			</div>
+		</div>
+		<section class="main row">
+			
+			<article class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<h3>"Contacto"</h3>
+				<p>
+					<b>Tel: </b> 2228 555 999.
+				</p>
+				<p>
+					<b>Email: </b> prueba_contacto@hotmail.com
+				</p>
+				<p>
+					<b>Ubicación: </b> Lago de Marte 79990, México.
+				</p>
+				<p>
+					<img src="img/telefono.png" alt="contactame" title="contactame">
+				</p>
+			</article>
+			<aside class= "col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="box">
+					<form action="#" method="POST" id="formulario" onsubmit="return false">
+							<label for= "nombre">Nombre:</label><br>
+							<input type="text" id="nombre" name = "nombre"><br>
+							<span class="error_nombre"></span><br>
+
+							<label for = "apellidos">Apellidos:</label><br>
+							<input type="text" id="apellidos" name ="nombre"><br>
+							<span class="error_apellidos"></span><br>
+
+							<label for="email">Email:</label><br>
+							<input type="email" name="email" id="email"><br>
+							<span class="error_email"></span><br>
+
+							<label for="mensaje">Mensaje:</label><br>
+							<textarea name="mensaje" id="mensaje"></textarea><br>
+							<span class="error_mensaje"></span><br>
+
+							<input type="submit" value="Enviar" id="submit"><br><br>
+					</form>
+				</div>
+			</aside>
+			<article class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<div class="box dashed">
+					<h3>Información del usuario</h3>
+					<hr>
+					<p id="p_nombre">
+						Nombre: <span></span>
+					</p>
+					<p id="p_apellidos">
+						Apellidos: <span></span>
+					</p>
+					<p id="p_email">
+						Email: <span></span>
+					</p>
+					<p id="p_mensaje">
+						Mensaje: <span></span>
+					</p>
+				</div>
+			</article>
+		</section>
+		<br>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<p>Bienestar.Life4ever@hotmail.com</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<p>Stefan Reyes Hernández - 2018</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<p>Tel: 222-333-888</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+		<script src="js/formulario.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
